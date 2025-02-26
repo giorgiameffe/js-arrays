@@ -13,9 +13,9 @@ const teachers = [
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
 // e salva il risultato nella variabile reversedTeachers
 
-const reversedTeachers = teachers.length - 1;
+const reversedTeachers = [];
 
-for (let i = reversedTeachers; i >= 0; i--) {
+for (let i = teachers.length - 1; i >= 0; i--) {
   console.log(teachers[i]);
 }
 
@@ -24,8 +24,13 @@ for (let i = reversedTeachers; i >= 0; i--) {
 
 const longNames = [];
 
-// 3. Rimuovi 'Ed' dall'array teachers
+for (let i = 0; i < teachers.length; i++) {
+  if (teachers[i].length >= 5) {
+    console.log('composti da 5 o più lettere',teachers[i]);
+  }
+}
 
+// 3. Rimuovi 'Ed' dall'array teachers
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
