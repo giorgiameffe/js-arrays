@@ -14,7 +14,7 @@ console.log(teachers);
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 
-const fourthTeacher = teachers[4];
+const fourthTeacher = teachers[3];
 console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
@@ -53,9 +53,10 @@ console.log(lewisIndex);
 // e salva il risultato nella variabile isTeachersEmpty
 
 const isTeachersEmpty = teachers.length === 0;
+console.log(isTeachersEmpty);
 
-if (isTeachersEmpty) { 
-  console.log(true); 
-} else {
-  console.log(false);
-}
+// if (isTeachersEmpty) { 
+//   console.log(true); 
+// } else {
+//   console.log(false);
+// }
